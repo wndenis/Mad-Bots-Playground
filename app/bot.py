@@ -88,4 +88,5 @@ def handle(message):
 
 
 if __name__ == '__main__':
+    print("Start")
     bot.polling(none_stop=True, timeout=60)
